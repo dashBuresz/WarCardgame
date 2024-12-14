@@ -14,10 +14,10 @@ public class Main {
         //create the deck and deal the cards
         for (int i = 0; i < deck.size(); i++)
         {
-            if (i < deck.size()/2)
-                player1.getHand().add(deck.geti(i));
-            else
-                player2.getHand().add(deck.geti(i));
+            if (i < deck.size()/2){}
+                //player1.getHand().add(deck.geti(i));
+            else{}
+                //player2.getHand().add(deck.geti(i));
         }
     }
     public static void main(String[] args) {
